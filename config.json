@@ -1,0 +1,68 @@
+{
+  "logging": {
+    "enabled": false,
+    "debug": false,
+    "info": false,
+    "warning": false,
+    "error": false,
+    "suppressIconWarnings": true,
+    "suppressQmlWarnings": true,
+    "suppressHyprlandWarnings": true
+  },
+  "bar": {
+    "showBackground": true,
+    "borderless": false,
+    "transparency": 0.25,
+    "height": 30,
+    "iconSize": 24,
+    "workspaceIconSize": 24,
+    "indicatorIconSize": 24,
+    "systrayIconSize": 24,
+    "logoIconSize": 32,
+    "workspaces": {
+      "shown": 10
+    },
+    "weather": {
+      "enable": true
+    }
+  },
+  "dock": {
+    "height": 60,
+    "hoverRegionHeight": 20,
+    "margin": 20,
+    "pinnedOnStartup": false,
+    "hoverToReveal": false,
+    "enable": true,
+    "pinnedApps": [],
+    "radius": 12,
+    "iconSize": 48,
+    "spacing": 8,
+    "autoHide": true,
+    "hideDelay": 200,
+    "showDelay": 50,
+    "showPreviews": true,
+    "showLabels": false,
+    "transparency": 0.9
+  },
+  "networking": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "wifi": {
+      "autoScan": true,
+      "scanInterval": 30000,
+      "showSignalStrength": true,
+      "showSecurityType": true,
+      "autoConnect": true,
+      "rememberNetworks": true,
+      "preferredNetworks": [],
+      "showHiddenNetworks": false,
+      "connection": {
+        "timeout": 30000,
+        "showPassword": false,
+        "autoReconnect": true
+      }
+    }
+  },
+  "hacks": {
+    "arbitraryRaceConditionDelay": 20
+  }
+}
